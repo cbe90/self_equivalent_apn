@@ -1,0 +1,217 @@
+Search S-boxes invariant for matrix: 
+{0x00,0x02,0x04,0x06,0x08,0x0a,0x0c,0x0e,0x10,0x12,0x14,0x16,0x18,0x1a,0x1c,0x1e,0x20,0x22,0x24,0x26,0x28,0x2a,0x2c,0x2e,0x30,0x32,0x34,0x36,0x38,0x3a,0x3c,0x3e,0x40,0x42,0x44,0x46,0x48,0x4a,0x4c,0x4e,0x50,0x52,0x54,0x56,0x58,0x5a,0x5c,0x5e,0x60,0x62,0x64,0x66,0x68,0x6a,0x6c,0x6e,0x70,0x72,0x74,0x76,0x78,0x7a,0x7c,0x7e,0x80,0x82,0x84,0x86,0x88,0x8a,0x8c,0x8e,0x90,0x92,0x94,0x96,0x98,0x9a,0x9c,0x9e,0xa0,0xa2,0xa4,0xa6,0xa8,0xaa,0xac,0xae,0xb0,0xb2,0xb4,0xb6,0xb8,0xba,0xbc,0xbe,0xc0,0xc2,0xc4,0xc6,0xc8,0xca,0xcc,0xce,0xd0,0xd2,0xd4,0xd6,0xd8,0xda,0xdc,0xde,0xe0,0xe2,0xe4,0xe6,0xe8,0xea,0xec,0xee,0xf0,0xf2,0xf4,0xf6,0xf8,0xfa,0xfc,0xfe,0xd7,0xd5,0xd3,0xd1,0xdf,0xdd,0xdb,0xd9,0xc7,0xc5,0xc3,0xc1,0xcf,0xcd,0xcb,0xc9,0xf7,0xf5,0xf3,0xf1,0xff,0xfd,0xfb,0xf9,0xe7,0xe5,0xe3,0xe1,0xef,0xed,0xeb,0xe9,0x97,0x95,0x93,0x91,0x9f,0x9d,0x9b,0x99,0x87,0x85,0x83,0x81,0x8f,0x8d,0x8b,0x89,0xb7,0xb5,0xb3,0xb1,0xbf,0xbd,0xbb,0xb9,0xa7,0xa5,0xa3,0xa1,0xaf,0xad,0xab,0xa9,0x57,0x55,0x53,0x51,0x5f,0x5d,0x5b,0x59,0x47,0x45,0x43,0x41,0x4f,0x4d,0x4b,0x49,0x77,0x75,0x73,0x71,0x7f,0x7d,0x7b,0x79,0x67,0x65,0x63,0x61,0x6f,0x6d,0x6b,0x69,0x17,0x15,0x13,0x11,0x1f,0x1d,0x1b,0x19,0x07,0x05,0x03,0x01,0x0f,0x0d,0x0b,0x09,0x37,0x35,0x33,0x31,0x3f,0x3d,0x3b,0x39,0x27,0x25,0x23,0x21,0x2f,0x2d,0x2b,0x29};
+
+
+
+ depth:6
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 f8 cf ac  8 f5 27 b8 49 1c 8f -- 10 -- 3d -- 4e -- a7 51 92 -- 38 -- c9 7f -- bc 20 -- -- -- 7a 48 -- 5d 9c 72 -- -- 99 -- a2 -- f3 -- -- 33 70 -- -- -- 45 fc fe -- -- -- af -- 40 -- -- -- -- -- -- -- f4 -- 90 -- -- -- ba 4f ef -- e4 -- -- 81 -- c4 e5 -- -- -- 93 -- -- -- 31 -- -- -- -- -- 66 -- e0 -- -- -- -- -- -- -- 8a -- 2f -- 2b 23 -- 2e -- 79 -- -- 89 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 3f -- -- -- f7 -- -- 12 -- 6a -- -- a3  7 9e 3e  9 -- -- -- 1f e8 -- 35 -- -- d5 -- -- -- 5f -- 1d -- -- -- -- -- -- 3a f1 74 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- 17 fa -- -- -- -- -- d7 -- -- -- -- -- -- -- -- c3 -- -- -- 5e d4 -- -- 56 7c 46 eb --  e 5c 91 -- -- f2 -- -- -- -- 7e c5 24 -- -- -- -- -- 39 
+
+solutions so far:0 maxDepth:9 
+iterations:2297780  skipped: 3 
+Depth skipped: 
+0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 300 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 f1 cf 43  8 19 35 e5 49 e0 86  3 10 -- 32 -- 6a -- 1d a6 92 -- 17 -- db 87  6 d3 20 -- -- -- 64 ac -- 26 d4 8a -- -- 3a -- 9b -- f3 -- -- 33 2e -- -- 60 61 cb d9 d1  c -- 71 -- 40 -- -- -- -- -- -- -- c8 -- 8f -- -- -- 4c 4f 7f -- c3 -- -- 81 -- c4 74 -- -- -- e1 -- -- -- 31 -- -- -- -- -- 66 -- 5c -- -- c1 -- -- c0 ae c2 -- 41 -- 65 23 75 a7 18 79 -- aa e2 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 47 -- -- -- c9 -- -- 2b -- 54 -- -- 98 38 9e a2 fe -- -- -- 51 1c -- 2a -- -- d5 -- -- -- 5f -- e8 -- -- -- -- -- --  7 15  e -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- b8 fa -- -- -- -- 55 d7 -- -- -- -- 57 -- 8b -- 53 -- -- -- 82 a8 -- -- ca 93 46 eb ea 70 99 e7 30 -- f2 -- -- -- 83 8e 13 56 -- -- -- -- -- 45 
+
+solutions so far:0 maxDepth:9 
+iterations:4694650  skipped: 4 
+Depth skipped: 
+0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 600 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 e6 cf ff  8 87 1b 60 49 75 29 a5 10 -- d9 -- 36 -- c0  5 92 -- ea -- 52 f9 9d 53 20 -- -- -- 65 96 -- 15 6c 84 -- -- 57 --  a -- f3 -- -- 33  3 -- -- 34 a4 db 25 b0 ed -- a6 -- 40 -- -- -- -- -- -- -- ca -- fb -- -- -- 2a 4f d8 -- df -- -- 81 -- c4 ae -- -- -- 14 -- -- -- 31 -- -- -- -- -- 66 --  6 -- --  b -- -- 68 77 9f -- 61 -- 4a 23 b7 18  d 79 -- 2c 9b -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 43 -- -- -- 21 -- -- ce -- a0 -- -- 54 83 9e d2 67 -- -- -- 69 aa -- 50 -- -- d5 -- -- -- 5f -- 8b -- -- -- -- -- -- c1 28 55 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- --  c fa -- -- -- -- 16 d7 -- -- -- -- d0 -- ee -- e9 -- -- -- c2 97 -- -- 94 73 46 eb b9 d1 30 a8 1a -- f2 -- -- -- 58 86 e1 4b -- -- -- -- -- 42 
+
+solutions so far:0 maxDepth:9 
+iterations:6969898  skipped: 10 
+Depth skipped: 
+0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 900 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 e1 cf b5  8 dc 15 30 49 d1 bd a3 10 -- 6f -- 2a -- 60 9a 92 -- 75 -- ad 59 91 ec 20 -- -- -- de ca -- 78 54 61 -- -- c0 -- e3 -- f3 -- -- 33 ea -- -- f4 8d f6 b2 c5 f5 --  f -- 40 -- -- -- -- -- -- -- 6b -- 43 -- -- -- f0 4f a8 -- c2 -- -- 81 -- c4 57 -- -- -- 11 -- -- -- 31 -- -- -- -- -- 66 --  3 -- -- 5e -- -- 3f fc cd -- 3b -- b3 23 5d  c 3d 79 -- af 1e -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- d6 -- -- -- 86 -- -- d9 -- 88 -- -- 37 aa 9e a6 87 -- -- -- 53 55 -- 44 -- -- d5 -- -- -- 5f -- ae -- -- -- -- -- -- 8b 22 c1 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- --  6 fa -- -- -- -- bc d7 -- -- -- -- 7e -- 2f -- 4d -- -- -- 76 c7 -- -- b1 9b 46 eb ba 83 18 6e 7a -- f2 -- -- -- 89 7b 3c 65 -- -- -- -- -- db 
+
+solutions so far:0 maxDepth:9 
+iterations:9166588  skipped: 12 
+Depth skipped: 
+0 0 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 1200 sec
+ depth:6
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 d9 cf  b  8 96 65 e4 49 12 16 -- 10 -- fb -- ca -- 1f b9 92 -- 24 -- 2c 68 -- e6 20 -- -- -- 21 53 -- d8 43 15 -- -- 3e -- a5 -- f3 -- -- 33 48 -- -- -- 58 69 d0 -- -- -- 1b -- 40 -- -- -- -- -- -- -- 42 -- a6 -- -- -- 67 4f 86 -- 2a -- -- 81 -- c4 7c -- -- -- 9d -- -- -- 31 -- -- -- -- -- 66 -- 90 -- -- -- -- -- -- -- b0 -- d2 -- 77 23 -- 39 -- 79 -- -- 36 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 84 -- -- -- 9b -- -- 61 -- 1a -- -- ce ef 9e a8 db -- -- -- 54 9c --  d -- -- d5 -- -- -- 5f -- f8 -- -- -- -- -- -- 27 ed 4e -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- f7 fa -- -- -- -- -- d7 -- -- -- -- -- -- -- -- b7 -- -- -- 73 34 -- -- ee 87 46 eb --  9 72 4b -- -- f2 -- -- -- -- df 6c c2 -- -- -- -- -- e1 
+
+solutions so far:0 maxDepth:9 
+iterations:11634488  skipped: 16 
+Depth skipped: 
+0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 1500 sec
+ depth:6
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 ca cf 2d  8 48 43 a4 49 f9 5a -- 10 -- 90 -- 86 -- 9f dd 92 -- 25 -- b4 bb -- f8 20 -- -- -- f7 9b -- ef db 54 -- -- e9 -- 6d -- f3 -- -- 33 4a -- -- -- bf 1f a1 -- -- -- 27 -- 40 -- -- -- -- -- -- -- 39 -- e1 -- -- --  9 4f 61 -- a8 -- -- 81 -- c4  5 -- -- -- da -- -- -- 31 -- -- -- -- -- 66 -- 94 -- -- -- -- -- -- -- a9 -- 3e -- 95 23 -- 29 -- 79 -- -- 4e -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 72 -- -- -- 15 -- -- 53 -- 5b -- -- 12 a0 9e d9 c2 -- -- -- 87 50 -- c6 -- -- d5 -- -- -- 5f --  a -- -- -- -- -- -- 14 63 28 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- ff fa -- -- -- -- -- d7 -- -- -- -- -- -- -- -- 85 -- -- -- 7c b6 -- -- fd 65 46 eb -- 97 52 24 -- -- f2 -- -- -- -- e4 9c a6 -- -- -- -- -- 2a 
+
+solutions so far:0 maxDepth:10 
+iterations:13633213  skipped: 21 
+Depth skipped: 
+0 0 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 1800 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 c0 cf 6f  8 7f 57 13 49 8e de 39 10 -- fe -- ae -- 26 3b 92 -- cb -- 6b f0 72 c3 20 -- -- -- 2b d1 -- f1 8b  6 -- -- 4c -- 76 -- f3 -- -- 33 41 -- -- 7c d6 c9 37 48 e4 -- 51 -- 40 -- -- -- -- -- -- -- 56 -- 75 -- -- -- 35 4f c1 --  c -- -- 81 -- c4 98 -- -- -- ec -- -- -- 31 -- -- -- -- -- 66 -- 82 -- -- ef -- -- f8 4e 7b -- 45 -- 6e 23 90 71 1f 79 -- 12 a2 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- ac -- -- -- ea -- -- aa -- 3c -- -- 6a c8 9e 30 55 -- -- -- 18 64 -- 1e -- -- d5 -- -- -- 5f -- e7 -- -- -- -- -- -- 19  f 32 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- d3 fa -- -- -- --  9 d7 -- -- -- -- 27 -- 9c -- f6 -- -- -- 8a 78 -- -- dc 60 46 eb f7 47 e2 d4 3e -- f2 -- -- -- 24 8f 93 83 -- -- -- -- --  3 
+
+solutions so far:0 maxDepth:10 
+iterations:16309146  skipped: 25 
+Depth skipped: 
+0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 2100 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 bb cf 4c  8 27 a1 60 49 75 98 1c 10 -- 4e -- 95 -- c0 c8 92 -- ea -- e7 71 38 f7 20 -- -- -- 9c a9 -- 1f fd da -- -- 57 -- 47 -- f3 -- -- 33  3 -- -- 2e 19 24 e2 e8 70 -- 39 -- 40 -- -- -- -- -- -- -- ef -- 85 -- -- -- 3e 4f 2d -- 63 -- -- 81 -- c4 ae -- -- -- 8e -- -- -- 31 -- -- -- -- -- 66 --  6 -- -- e5 -- -- 5c a7 32 -- 48 -- 13 23  7 18 e0 79 -- 3a 72 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- --  9 -- -- -- dd -- -- b4 -- 82 -- -- 7c 83 9e 5b 5a -- -- -- c6 aa -- 41 -- -- d5 -- -- -- 5f -- 8b -- -- -- -- -- -- c1 cb 55 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- --  c fa -- -- -- -- 1d d7 -- -- -- -- b8 -- 99 -- 64 -- -- -- 90 d3 -- -- 26 b6 46 eb  e d1 30 f8 17 -- f2 -- -- -- 74 12 e4 bf -- -- -- -- -- 6d 
+
+solutions so far:0 maxDepth:10 
+iterations:18416246  skipped: 26 
+Depth skipped: 
+0 0 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 2400 sec
+ depth:6
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 b2 cf 43  8 2d b3 16 49 1a 86 -- 10 -- 5a -- b1 -- 2c a6 92 -- 34 -- db 87 -- 63 20 -- -- -- b4 4d -- bb b5 22 -- -- 58 -- 9b -- f3 -- -- 33 68 -- -- -- 61 dd d9 -- -- -- c6 -- 40 -- -- -- -- -- -- -- bf -- 9a -- -- -- a1 4f bd -- 44 -- -- 81 -- c4 b0 -- -- -- e1 -- -- -- 31 -- -- -- -- -- 66 -- d0 -- -- -- -- -- -- -- c2 -- 6d -- 65 23 -- ee -- 79 -- -- 5b -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- a9 -- -- -- e3 -- -- 8d -- 54 -- -- 95 ed 9e c7 ad -- -- -- 88 9d -- 2a -- -- d5 -- -- -- 5f -- b7 -- -- -- -- -- -- b9 15 a5 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- 77 fa -- -- -- -- -- d7 -- -- -- -- -- -- -- -- 53 -- -- -- da a8 -- -- ca 59 46 eb --  d  b fd -- -- f2 -- -- -- -- 85 b6 cd -- -- -- -- -- 11 
+
+solutions so far:0 maxDepth:10 
+iterations:21112130  skipped: 31 
+Depth skipped: 
+0 0 31 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 2700 sec
+ depth:6
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 a6 cf 47  8 25 9b 63 49 b4 8e -- 10 -- 4a -- e1 -- c6 71 92 -- bf -- cb 19 --  5 20 -- -- -- 94 d9 -- 50 15 86 -- -- 5b -- e2 -- f3 -- -- 33 a9 -- -- -- 41 a4 32 -- -- --  a -- 40 -- -- -- -- -- -- -- ff -- 65 -- -- -- a0 4f 2a -- db -- -- 81 -- c4 b6 -- -- -- 13 -- -- -- 31 -- -- -- -- -- 66 -- 85 -- -- -- -- -- -- -- 82 -- 9f -- 64 23 -- 6d -- 79 -- -- 14 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 29 -- -- -- ca -- -- a8 -- 98 -- -- 97 2d 9e c2 54 -- -- -- 61 fd -- 4c -- -- d5 -- -- -- 5f -- bb -- -- -- -- -- -- a1 26 95 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- dd fa -- -- -- -- -- d7 -- -- -- -- -- -- -- -- d3 -- -- -- e9 e7 -- -- c8 53 46 eb -- 5a da f9 -- -- f2 -- -- -- -- 52 28 87 -- -- -- -- -- 43 
+
+solutions so far:0 maxDepth:10 
+iterations:24524449  skipped: 36 
+Depth skipped: 
+0 0 36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 3000 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 94 cf af  8 74 ff d4 49 c3 89 55 10 -- e8 -- 29 -- 7f 91 92 -- 51 -- c5 fc aa 2e 20 -- -- --  7  a -- 99 52 a0 -- -- fe -- f5 -- f3 -- -- 33 a2 -- -- ea 5d 70 2f ae 83 -- 5c -- 40 -- -- -- -- -- -- --  e -- 14 -- -- -- e5 4f a4 -- 97 -- -- 81 -- c4 2b -- -- -- 3d -- -- -- 31 -- -- -- -- -- 66 -- 93 -- -- 30 -- --  3  c ba -- e0 -- 5e 23 8b 35 d1 79 -- c0 b8 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 1c -- -- -- 28 -- -- e9 -- 3f -- -- 1d 45 9e 25 9f -- -- -- f9 c9 -- f4 -- -- d5 -- -- -- 5f -- 56 -- -- -- -- -- -- ac 7a 8f -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- f1 fa -- -- -- -- 60 d7 -- -- -- --  6 -- 18 -- a3 -- -- -- 17 7e -- -- bc 4a 46 eb c1 8a 6a 3a 75 -- f2 -- -- -- 57 38 a7  5 -- -- -- -- -- 50 
+
+solutions so far:0 maxDepth:10 
+iterations:27970100  skipped: 43 
+Depth skipped: 
+0 0 43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 3300 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 89 cf c9  8 df c5 fd 49 63 45 b1 10 -- 69 -- 5d -- 2d 93 92 -- c6 -- 8a 2b b5 67 20 -- -- -- d2 7a -- fb ba fc -- -- 5a -- f1 -- f3 -- -- 33 5b -- -- cd c3 36 56 59 bd -- ce -- 40 -- -- -- -- -- -- -- 73 -- f4 -- -- -- 21 4f a3 -- 2f -- -- 81 -- c4 b4 -- -- -- 35 -- -- -- 31 -- -- -- -- -- 66 -- b6 -- -- 22 -- -- 4d e3 51 -- 6c -- ac 23 b2 a1 ad 79 -- 88 4b -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- e6 -- -- -- 3f -- -- f5 -- 7f -- -- 42 6d 9e bc 91 -- -- -- 5e dd -- d4 -- -- d5 -- -- -- 5f -- bf -- -- -- -- -- -- a9 6a 85 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- bb fa -- -- -- -- 44 d7 -- -- -- -- 9a -- 11 -- a2 -- -- -- d8 fe -- -- 8f af 46 eb b3 da 95 84 8d -- f2 -- -- -- c7 1b 96 3d -- -- -- -- -- 7e 
+
+solutions so far:0 maxDepth:10 
+iterations:30036566  skipped: 46 
+Depth skipped: 
+0 0 46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 3600 sec
+ depth:6
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 7a cf 2d  8 ac f4 b8 49 1c 5a -- 10 -- 8f -- 3f -- a7 dd 92 -- 38 -- b4 bb -- f1 20 -- -- -- c9 af -- 7f 7e ba -- -- 99 -- 6d -- f3 -- -- 33 70 -- -- -- bf 51 a1 -- -- -- 35 -- 40 -- -- -- -- -- -- -- 45 -- 89 -- -- -- fe 4f fc -- a3 -- -- 81 -- c4 e5 -- -- -- da -- -- -- 31 -- -- -- -- -- 66 -- e0 -- -- -- -- -- -- -- a9 -- a2 -- 95 23 -- 2e -- 79 -- -- 6a -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 8a -- -- -- c5 -- -- 5e -- 5b -- -- 2b  7 9e f5 2f -- -- -- 91 e8 -- c6 -- -- d5 -- -- -- 5f -- 1d -- -- -- -- -- -- 3a 63 74 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- 17 fa -- -- -- -- -- d7 -- -- -- -- -- -- -- -- 85 -- -- -- 93 b6 -- -- fd 3d 46 eb --  e 5c 56 -- -- f2 -- -- -- -- c3 d4 bc -- -- -- -- -- 5d 
+
+solutions so far:0 maxDepth:10 
+iterations:33453125  skipped: 54 
+Depth skipped: 
+0 0 54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 3900 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 73 cf 3c  8 3f e6 27 49 39 78 63 10 -- 7e -- 1b -- 4e 6f 92 -- 72 -- f0 76 c6 5d 20 -- -- -- fc 4b -- f5 36 42 -- -- 9c -- de -- f3 -- -- 33 e4 -- -- a1 37 af ec dd 5b -- ba -- 40 -- -- -- -- -- -- -- 2f -- 96 -- -- -- 3d 4f 6c -- 84 -- -- 81 -- c4 ef -- -- -- 6b -- -- -- 31 -- -- -- -- -- 66 -- 1f -- -- b4 -- -- 95 2d 6e -- 89 --  f 23 6d 7c b6 79 -- a9 a3 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 5e -- -- -- fb -- -- 67 -- f6 -- -- 7a 90 9e 69 d8 -- -- -- df 48 -- 7b -- -- d5 -- -- -- 5f --  9 -- -- -- -- -- -- 12 d6 24 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- 3e fa -- -- -- -- bf d7 -- -- -- -- fd -- 5a -- dc -- -- -- c5 3b -- -- 1e d2 46 eb da f7 f8 f4 bb -- f2 -- -- -- 85 bc 91 ce -- -- -- -- -- 21 
+
+solutions so far:0 maxDepth:10 
+iterations:35653382  skipped: 57 
+Depth skipped: 
+0 0 57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 4200 sec
+ depth:8
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 69 cf 91  8 3a d2 3b 49 dc f5 fe 10 d1 74 -- 73 -- 76 7e 92 -- 6f -- 3d c5 2b 17 20 -- 75 -- e8 67 -- a7 e6 fb -- -- ec -- fc -- f3 -- -- 33 de -- -- c9 7a 38 5d 6a 56 -- 2e -- 40 -- -- -- ea -- -- --  7 -- ce -- -- 55 99 4f 1b -- 21 -- -- 81 -- c4  f  c -- -- 2f -- -- -- 31 -- -- -- -- -- 66 -- 6b -- -- a2 -- -- 45 c3 f4 -- 70 -- ba 23 d4 7b ac 79 -- f1 5c -- -- -- 80 -- -- 7d -- -- -- --  3 -- -- be -- 8b -- --  e -- -- -- 4b -- -- 6c -- af aa -- e5 37 9e 84 36 -- -- -- 42 f0 -- bc -- -- d5 -- -- ae 5f -- 1e 60 18 30 -- c0 -- 3c 5e 78 -- -- -- 57 -- -- 62 ab -- -- -- -- --  6 -- -- -- -- cc c1 -- -- d6 fa -- -- -- -- 93 d7 -- -- -- -- 8a -- 51 -- 3f -- -- 83 e0 89 -- -- a3 df 46 eb 7f 6e f6 1d 8f -- f2 -- -- -- 35 1c b8 d8 -- -- -- -- -- 96 
+
+solutions so far:0 maxDepth:10 
+iterations:38186672  skipped: 60 
+Depth skipped: 
+0 0 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 4500 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 5c cf 1f  8 4a b8 43 49 2a 3e 2d 10 -- 94 -- a7 -- 86 9c 92 -- 54 -- 7c f7 5a  a 20 -- -- -- ff e8 -- a0 99 38 -- -- db -- ef -- f3 -- -- 33 a8 -- -- 85 f8 9f 39 a1 b4 -- 14 -- 40 -- -- -- -- -- -- -- 29 --  7 -- -- -- 97 4f e5 -- 70 -- -- 81 -- c4 61 -- -- --  9 -- -- -- 31 -- -- -- -- -- 66 -- 87 -- -- c6 -- -- dd da 27 -- e9 -- 72 23 95 65 bf 79 -- b6 28 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 52 -- -- --  e -- -- 3a -- 48 -- -- f9 e1 9e 17 1d -- -- -- e0 9b -- 24 -- -- d5 -- -- -- 5f -- c2 -- -- -- -- -- -- 53 12 a6 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- d9 fa -- -- -- -- 5b d7 -- -- -- -- 6d -- 63 -- 4e -- -- --  5 90 -- -- e4 2e 46 eb fd 15 ca 25 a9 -- f2 -- -- -- bb a4 50 74 -- -- -- -- -- 1c 
+
+solutions so far:0 maxDepth:10 
+iterations:41236904  skipped: 65 
+Depth skipped: 
+0 0 65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 4800 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 4b cf ef  8 d9 96 6b 49 78  9 83 10 -- 65 -- fb -- d6 f7 92 -- f0 -- 12 f8 d1 a6 20 -- -- -- ca d2 -- 2a 21 36 -- -- 7b -- 39 -- f3 -- -- 33 37 -- --  6 24 61 27 c1 75 -- 9b -- 40 -- -- -- -- -- -- -- 43 -- 73 -- -- -- 54 4f 42 -- 6c -- -- 81 -- c4 f6 -- -- -- 72 -- -- -- 31 -- -- -- -- -- 66 -- 6e -- -- c0 -- --  c 30 48 -- c2 -- 4e 23 55 6f ea 79 -- ae e1 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 86 -- -- -- e6 -- -- df -- 3e -- -- a8 1e 9e 67 84 -- -- -- d8  f -- 1f -- -- d5 -- -- -- 5f -- 3b -- -- -- -- -- -- 76 e4 ec -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- dc fa -- -- -- -- 57 d7 -- -- -- -- 18 -- 60 -- 90 -- -- -- 53 7c -- -- 9c ce 46 eb aa 3c de 87  3 -- f2 -- -- -- 8b db 15 69 -- -- -- -- -- 1b 
+
+solutions so far:0 maxDepth:10 
+iterations:45409092  skipped: 72 
+Depth skipped: 
+0 0 72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 5100 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 3d cf 2a  8 ce 7a dc 49  f 54 c0 10 -- 4b -- f4 -- 6f ca 92 -- 1e -- a8 a6 57 d2 20 -- -- -- 96 bc -- 36 3f 5d -- -- de -- 43 -- f3 -- -- 33 3c -- -- 55 87 84 9b 18 ae -- 73 -- 40 -- -- -- -- -- -- -- fb -- af -- -- -- 6c 4f 7e -- ba -- -- 81 -- c4 6b -- -- -- 86 -- -- -- 31 -- -- -- -- -- 66 -- 78 -- -- ea -- -- aa d1 d9 -- df -- e1 23 30 37 8b 79 --  6 e6 -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 21 -- -- -- 89 -- -- 2f -- c2 -- -- d8 76 9e 91 fc -- -- -- a3 3b -- 61 -- -- d5 -- -- -- 5f -- d6 -- -- -- -- -- -- 7b db f6 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- f0 fa -- -- -- --  3 d7 -- -- -- -- 83 -- 75 -- 65 -- -- -- 69 53 -- -- 15 f5 46 eb 60 ec 6e 67 c1 -- f2 -- -- --  c 42 1b 5e -- -- -- -- -- c5 
+
+solutions so far:0 maxDepth:10 
+iterations:48690804  skipped: 78 
+Depth skipped: 
+0 0 78 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 5400 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 2d cf ac  8 f7 5a 44 49 8d 8f 2a 10 -- 39 -- b4 -- 88 51 92 -- cd -- c9 7f 54 4e 20 -- -- -- 72 da -- 12 bf b6 -- -- c7 -- a2 -- f3 -- -- 33 4d -- -- 65 45 7c fe 9b a8 -- 9c -- 40 -- -- -- -- -- -- -- e4 -- 63 -- -- -- 24 4f a9 -- bb -- -- 81 -- c4 59 -- -- -- 93 -- -- -- 31 -- -- -- -- -- 66 -- 9a -- -- 61 -- -- ca 86 8a -- f8 -- 2b 23 e1 11 87 79 -- 53 ef -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- 1f -- -- -- c6 -- -- dd -- 6a -- -- 48 bd 9e 95 85 -- -- -- a1 b5 -- 35 -- -- d5 -- -- -- 5f -- b2 -- -- -- -- -- -- b3 f1 b1 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- e3 fa -- -- -- -- c2 d7 -- -- -- -- 43 -- db -- c3 -- -- -- 27 d4 -- -- 56 fd 46 eb 15 ad 22 90 d9 -- f2 -- -- -- a6 3e  9 6d -- -- -- -- -- 5b 
+
+solutions so far:0 maxDepth:10 
+iterations:52627812  skipped: 84 
+Depth skipped: 
+0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 5700 sec
+ depth:7
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 1c cf 9b  8 ae 38 af 49 f4 e1 1e 10 -- 8b -- 70 -- 89 87 92 -- 3f -- 15 61 3c  3 20 -- -- -- c1 a7 -- 30 e0 3a -- -- c5 -- d9 -- f3 -- -- 33 7e -- -- 6e 2a d1 c2 76 78 --  6 -- 40 -- -- -- -- -- -- -- 55 -- 99 -- -- -- 60 4f 17 -- 74 -- -- 81 -- c4 5d -- -- -- 65 -- -- -- 31 -- -- -- -- -- 66 -- fc -- -- d6 -- -- dc de 54 -- 75 -- 53 23 ec 5e f0 79 -- f6  c -- -- -- 80 -- -- 7d -- -- -- -- -- -- -- be -- -- -- -- aa -- -- -- e5 -- -- 5c -- 86 -- -- c0 3d 9e  7 2e -- -- -- e8 f5 -- 43 -- -- d5 -- -- -- 5f -- ba -- -- -- -- -- -- a3 ca 91 -- -- -- -- -- -- 62 ab -- -- -- -- -- -- -- -- -- -- cc -- -- -- 2f fa -- -- -- -- 7b d7 -- -- -- -- 6f -- 6b -- a8 -- -- -- ea db -- -- a6  e 46 eb  f 7a bc 57 37 -- f2 -- -- -- 3b 83 18 b8 -- -- -- -- -- 1d 
+
+solutions so far:0 maxDepth:10 
+iterations:56737972  skipped: 93 
+Depth skipped: 
+0 0 93 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 6000 sec
+ depth:8
+ 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91 92 93 94 95 96 97 98 99 9a 9b 9c 9d 9e 9f a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 aa ab ac ad ae af b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 ba bb bc bd be bf c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 ca cb cc cd ce cf d0 d1 d2 d3 d4 d5 d6 d7 d8 d9 da db dc dd de df e0 e1 e2 e3 e4 e5 e6 e7 e8 e9 ea eb ec ed ee ef f0 f1 f2 f3 f4 f5 f6 f7 f8 f9 fa fb fc fd fe ff 
+ 0  1  2 8c  4 11 cf 7c  8 c3 22 1d 49 17 f8 73 10 19 51 -- 44 -- 3a  9 92 -- 2e -- 27 72 e6 fe 20 -- 32 -- a2 b1 -- 8f 88 8d -- -- 74 -- 12 -- f3 -- -- 33 5c -- -- d8 4e 6a e4 df 1b -- 2b -- 40 -- -- -- 64 -- -- -- 93 -- b5 -- -- 4c c9 4f c7 -- cd -- -- 81 -- c4 e8 8e -- -- 24 -- -- -- 31 -- -- -- -- -- 66 -- b8 -- -- fb -- -- 67 4b 9c -- d4 -- 1f 23 69 99 36 79 -- 42 56 -- -- -- 80 -- -- 7d -- -- -- -- c8 -- -- be -- 13 -- -- f1 -- -- -- bd -- -- b2 -- f7 98 -- 45 70 9e 9a 59 -- -- -- 4d 38 -- 90 -- -- d5 -- -- e2 5f --  7 82 cb 41 -- d3 --  e 48 1c -- -- -- 71 -- -- 62 ab -- -- -- -- -- 47 -- -- -- -- cc 26 -- -- a7 fa -- -- -- -- 21 d7 -- -- -- -- ce -- 96 -- ef -- -- e7 7f 39 -- -- 3e e3 46 eb d2 e0 e5 8a 6c -- f2 -- -- -- 84 35 ac b3 -- -- -- -- -- ad 
+
+solutions so far:0 maxDepth:10 
+iterations:60289580  skipped: 99 
+Depth skipped: 
+0 0 99 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+running time: 6300 sec
+
+Finished. Total running time: 6436 sec
